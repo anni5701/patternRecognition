@@ -1,0 +1,7 @@
+Kivy==2.1.0
+matplotlib==3.6.3
+numpy==1.24.1
+panda3d==1.10.13
+pandas==1.5.2
+pyglet==2.0.4
+pyserial==3.5
