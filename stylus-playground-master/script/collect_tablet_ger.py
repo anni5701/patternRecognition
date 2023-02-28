@@ -28,12 +28,12 @@ else:
 # Get tablet axes
 control_map = {control.raw_name: control for control in controls}
 print(list(control_map))
-control_x = control_map["X Axis"]
-control_y = control_map["Y Axis"]
-control_z = control_map["Z Axis"]
-control_in_range = control_map["In Range"]
-control_switch = control_map["Tip Switch"]
-control_pressure = control_map["Tip Pressure"]
+control_x = control_map["X-Achse"]
+control_y = control_map["Y-Achse"]
+control_z = control_map["Z-Achse"]
+control_in_range = control_map["Im Bereich"]
+control_switch = control_map["Tippschalter"]
+control_pressure = control_map["Druckempfindliche Spitze"]
 
 
 # Open window
