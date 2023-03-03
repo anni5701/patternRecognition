@@ -27,7 +27,7 @@ else:
 
 # Get tablet axes
 control_map = {control.raw_name: control for control in controls}
-print(list(control_map))
+#print(list(control_map))
 control_x = control_map["X-Achse"]
 control_y = control_map["Y-Achse"]
 control_z = control_map["Z-Achse"]
